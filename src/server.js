@@ -4,7 +4,7 @@ const path = require('path');
 const resolvers = require('./resolvers');
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://natan:1Lazzeri@@cluster0-aloxh.mongodb.net/graphql?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://user:password@cluster0-aloxh.mongodb.net/database?retryWrites=true&w=majority", {
     useNewUrlParser: true
 });
 
